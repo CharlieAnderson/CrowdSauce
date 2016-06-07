@@ -1,0 +1,322 @@
+body{
+background: #ECECEC;
+}
+.form-horizontal {
+	border-style: solid;
+}
+
+.tag {
+	margin-right: 5px;
+}
+
+.tagset {
+	float: right;
+}
+
+.post-title {
+	text-align:left;
+}
+#posts {
+
+}
+.post-panel {
+	/* same width as fb comments*/
+	width: 570px;
+	margin: 20px auto;
+
+}
+
+.recipe-notes {
+	font-size: small;
+}
+.recipeImage {
+	height: 300px;
+	width: 300px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block; 
+}
+
+.rating-stars {
+	display: inline;
+	float: right;
+}
+
+.rating-star {
+	height:100px;
+	width:100px;
+}
+
+.favorite-div {
+	display: inline;
+	float:right;
+	height: 30px;
+	width:30px;
+
+}
+.favorite-heart {
+	display: inline;
+	height: 25px;
+	width: 25px;
+}
+
+.recipe-link {
+	background-color: #f5f5f5;
+	color: inherit;
+}
+
+.post_fab{
+  position:fixed;
+  bottom: 2em;
+  right: 2em;
+  width:60px;
+  height:60px;
+  border-radius:100%;
+  background:#1BC3F0;
+  border:none;
+  outline:none;
+  color:#FFF;
+  font-size:36px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.28);
+  transition:.3s;  
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  text-align:center;
+  text-decoration: none;
+}
+
+.post_fab:hover {
+
+  background-color:#60D9F0;
+  color:white;
+  text-decoration: none;
+  transform: translate(0px, -10px) scale(1.1);
+
+}
+.post_fab:focus {
+  text-decoration: none !important;
+  background-color:#1BC3F0;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.10), 1px 1px 3px rgba(0,0,0,0.16);
+  transform:scale(.9) rotate(90deg);
+  -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+
+.feed-title{
+	text-align: center;
+}
+
+.no-posts-display {
+	color: gray;
+}
+.no-posts-image {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.search-bar {
+	width: 570px;
+	margin-top: 20px;
+}
+
+.search-input {
+	height: 38px;
+}
+
+.search-banner {
+	width: 570px;
+	margin-left: 3px;
+}
+
+.user-banner {
+	width: 570px;
+	margin-top: 15px;
+	padding-left: 3px;
+}
+.back-to-feed {
+	float: right;
+}
+
+.recipe-link-modal {
+	margin: auto;
+}
+
+.recipe-link-modal .modal-dialog {
+	width: 70%;
+}
+
+.recipe-iframe {
+	width: 100%;
+	height: 35em;
+}
+
+.profile-image {
+	border-radius: 50%;
+	padding-right: 6px;
+}
+
+.profile-link {
+	margin-right: 3px;
+}
+
+.edit-buttons {
+	float: right;
+	margin: 4px;
+}
+
+.edit-image-link {
+	margin-bottom: 10px 
+}
+
+.edit-notes {
+	width: 70%
+}
+
+.edit-notes-label {
+	padding-left: 1%
+}
+
+.edit-title {
+	margin-bottom: 4%
+}
+
+.edit-notes-label {
+	padding-left: 1%
+}
+
+.tag-link {
+	color: white;
+}
+
+.carousel-full {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.carousel-full > .carousel-control.right {
+	border-top-right-radius: .5em;
+	border-bottom-right-radius: .5em;
+	background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.1) 100%);
+}
+
+.carousel-full > .carousel-control.left {
+	border-top-left-radius: .5em;
+	border-bottom-left-radius: .5em;
+	background-image: linear-gradient(to right,rgba(0,0,0,.1) 0,rgba(0,0,0,.0001) 100%);
+}
+
+
+.glyphicon-chevron-left {
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.glyphicon-chevron-right {
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.glyphicon-chevron-right:before {
+	content: ">";
+}
+
+.glyphicon-chevron-left:before {
+	content: "<";
+}
+
+.ingr-button {
+	float: right;
+}
+
+.ingr-image-holder {
+	float: right;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.ingr-ok-icon {
+	width: 55%;
+}
+.trend-title {
+display: inline-block;
+float:left;
+width: 60%;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.trend-favorites {
+display: inline-block;
+float: right;
+padding: 0 5px;
+margin: 0 auto;
+}
+
+.trend-favorite-image {
+display: inline-block;
+float:right;
+width: 24px;
+height: 24px;
+margin: 0 auto;
+}
+
+.trend-badge {
+background-color: #60D9F0;
+}
+
+.trend-header {
+margin:0 auto;
+}
+
+.trend-icon-image {
+margin:0 auto;
+float:left;
+padding: 0 10px;
+
+}
+.trend-list-group-item {
+overflow:hidden;
+height:50px;
+}
+
+.prepTime {
+	padding-right: 3%;
+}
+
+.difficulty {
+	padding-left: 3%; 
+}
+
+.prep-difficulty {
+	color: #676767;
+	text-align: center;
+}
+.postrecipe-images {
+	max-height:250px;
+	max-width: 250px;
+	margin: 3px auto;
+	border: 3px solid grey;
+	border-radius:5px;
+}
+
+.shopping-list-container {
+	margin-top: 20px
+}
+
+.ingredient-checkbox {
+	margin-right: .5em;
+}
+
+.remove-checked {
+	float: right;
+}
+
+.shopping-ingredient {
+	margin-left: 5px;
+}

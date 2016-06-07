@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CrowdSauce</title>
+<meta charset="UTF-8">
+<script type="text/javascript" src="../js/login.js"></script>
+<link href="../css/landing-page.css" rel="stylesheet">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/bootstrap-theme.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!--
+  Below we include the Login Button social plugin. This button uses
+  the JavaScript SDK to present a graphical Login button that triggers
+  the FB.login() function when clicked.
+  <div id="status">
+</div>
+-->
+
+    <div class="container">
+      <div class="starter-template">
+        <h1>Welcome to CrowdSauce</h1>
+        <p class="lead">Please login through Facebook</p>
+        <fb:login-button scope="public_profile,user_friends,email" onlogin="checkLoginState();">
+		</fb:login-button>
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="../js/libs/bootstrap.min.js"> </script>
+  </body>
+</html>

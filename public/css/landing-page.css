@@ -1,0 +1,42 @@
+
+html, body{
+  height:100%;
+  width:100%;
+  overflow: hidden;
+}
+
+.starter-template {
+  text-align: center;
+}
+
+.panel {
+  margin:0 auto;
+  margin-top:5em;
+  width:50%;
+  text-align: center;
+}
+
+#welcome-header {
+  text-align: left;
+  font-size: 48px;
+}
+
+#fbLoginBtn {
+}
+
+.background {
+  height:100%;
+  width:100%;
+  position:absolute;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background: url('http://i.imgur.com/O0CbWN8.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+  opacity:.3;
+}
+
